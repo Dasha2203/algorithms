@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+.next/
+dist/
+coverage/
+*.tsbuildinfo
+apps/api/src/generated/prisma/
+packages/database/src/generated/prisma/
+apps/web/next-env.d.ts
+
+# Local environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+*.log
+pnpm-debug.log*
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
